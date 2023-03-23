@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1100px) {
+  .library {
+    flex-direction: column;
+    gap: 20px !important;
+  }
+  .library .libraryElem {
+    width: 90% !important;
+  }
+  #modal .imgPlay .text {
+    display: inline;
+  }
+  #modal .imgPlay .text h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 76px;
+  }
+}
+@media only screen and (max-width: 978px) {
+  #modal .imgPlay .img {
+    max-width: 138px;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    padding: 6% 0 !important;
+  }
+  #modal .imgPlay .text h1 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+  }
+  footer .bloc .text h4 {
+    font-size: 12px;
+  }
+  footer .bloc .text p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #modal .imgPlay {
+    padding: 0 36px;
+  }
+  #modal .imgPlay .text h3 {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  #modal .imgPlay .text h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #modal .imgPlay .text p {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  #modal .imgPlay .text p span {
+    font-weight: 500;
+    font-size: 10px;
+  }
+  #modal #oupenModl {
+    padding: 10px 34px 100px;
+  }
+  #modal #oupenModl .haed {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  #modal #oupenModl .haed .elem {
+    width: 100%;
+    justify-content: space-between;
+  }
+  #modal #oupenModl .haed .elem:nth-child(2) li {
+    display: none;
+  }
+  #modal #oupenModl .haed .elem:nth-child(2) li:nth-child(1) {
+    display: block;
+  }
+  footer .bloc .text {
+    display: none;
+  }
+  footer .bloc .text h4 {
+    font-size: 12px;
+  }
+  footer .bloc .text p {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=media.css.map */

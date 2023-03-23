@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header className="App-header" class="AppHeader">
+        <div class="bloc" id="apiblock">
+            <img src="img/Green.png" alt="">
+            <button id="apiLogin">
+                <a class="ancer" href="">Login to Spotify</a>
+            </button>
+
+        </div>
+
+        <form action="" id="forma">
+            <div class="a">
+                <h1>
+                    Account login Spotify
+                </h1>
+                <label for="">USERNAME</label>
+                <input type="text" id="name">
+                <label for="">password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="b c">
+                <h1>
+                    Registration in Spotify
+                </h1>
+                <label for="">USERNAME</label>
+                <input type="text" class="inp" id="nevuser" >
+                <label for="">gmail</label>
+                <input type="gmail" class="inp" id="gmail" >
+                <label for="">password</label>
+                <input type="password" class="inp" id="nevpassword" >
+            </div>
+
+            <div class="block">
+                <div class="checket" id="checket">
+                    <div></div>
+                </div>
+                <p>зарегестрироваться</p>
+            </div>
+            <button id="btnForm">Вход</button>
+
+        </form>
+
+
+    </header>
+
+    <main>
+
+        <div class="navBlock">
+            <nav class="navactiv" id="navactiv">
+                <div class="icon">
+                    <a href="#"><img src="img/spotify.png" alt=""></a>
+                    <span class="material-icons" id="clous">
+                        keyboard_double_arrow_left
+                    </span>
+                </div>
+                <div class="navElem" >
+                    <span class="material-icons">
+                        home
+                    </span>
+                    <p>Home</p>
+                </div>
+                <div class="navElem" id="searchClick">
+                    <span class="material-icons" >
+                        search
+                    </span>
+                    <p>Search</p>
+                </div>
+                <div class="navElem">
+                    <img src="img/icon.svg" alt="">
+                    <p>Library</p>
+                </div>
+                <div class="navLine"></div>
+                <div class="navElem" data-items="liked" id="friends">
+                    <span class="material-icons">
+                        favorite_border
+                    </span>
+                    <p>Liked Songs</p>
+                </div>
+                <div class="navLine"></div>
+                <div class="navConsol">
+                    <div class="player">
+                        <p class="playerelem">
+                            Playlists
+                            <span class="material-icons">
+                                more_horiz
+                            </span>
+                        </p>
+
+                    </div>
+                    <div class="page">
+                        <span class="material-icons">
+                            folder
+                        </span>
+                        <span class="material-icons">
+                            list
+                        </span>
+                    </div>
+                </div>
+                <div class="catigories">
+                    <div class="get">
+                        <p class="oupen">
+                            Hip-Hop
+                            <span class="material-icons" id="oupen">
+                                arrow_right
+                            </span>
+                        </p>
+                        <div class="cllas">
+                            <p>cllas</p>
+
+                        </div>
+
+                    </div>
+                    <div class="get">
+                        <p class="oupen">
+                            Pop
+                            <span class="material-icons" id="oupen">
+                                arrow_right
+                            </span>
+                        </p>
+                        <div class="cllas">
+                            <p>cllas</p>
+                        </div>
+
+                    </div>
+                    <div class="get">
+                        <p class="oupen">
+                            Rock
+                            <span class="material-icons" id="oupen">
+                                arrow_right
+                            </span>
+                        </p>
+                        <div class="cllas">
+                            <p>Brit Rock</p>
+                            <p>90’s Rock</p>
+                        </div>
+
+                    </div>
+                    <div class="get">
+                        <p class="oupen">
+                            Collaborative
+                            <span class="material-icons" id="oupen">
+                                arrow_right
+                            </span>
+                        </p>
+                        <div class="cllas">
+                            <p>cllas</p>
+                        </div>
+
+                    </div>
+                    <div class="get">
+                        <p class="oupen">
+                            Playlists You Follow
+                            <span class="material-icons" id="oupen">
+                                arrow_right
+                            </span>
+                        </p>
+                        <div class="cllas">
+                            <p>cllas</p>
+                        </div>
+
+                    </div>
+
+                    <div class="clickBloc">
+                        <button class="click">Download app</button>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navpasiv" >
+                <li>
+                    <span class="material-icons" id="manu">
+                        keyboard_double_arrow_left
+                    </span>
+                </li>
+                <li><a href="#"><img src="img/Vecto1r.png" alt=""></a></li>
+                <li>
+                    <span class="material-icons">
+                        home
+                    </span>
+                </li>
+                <li>
+                    <span class="material-icons" id="searchClick">
+                        search
+                    </span>
+                </li>
+                <li><img src="img/icon.svg" alt=""></li>
+                <li>
+                    <span class="material-icons">
+                        favorite_border
+                    </span>
+                </li>
+                <li class="btn">
+                    <button><img src="img/DownloadSimple.png" alt=""></button>
+                </li>
+
+            </nav>
+        </div>
+
+        <div class="content">
+            
+            <div class="haed">
+                <div class="search">
+                    <div class="searchElem">
+
+                        <span class="material-icons">
+                            chevron_left
+                        </span>
+                        <span class="material-icons">
+                            navigate_next
+                        </span>
+                    </div>
+                </div>
+                <div class="akaunt">
+                    <div class="akauntElem">
+                        <div class="img"></div>
+                        <h3 id="username">Username</h3>
+                    </div>
+                    <div class="akauntElem" id="akauntElem">
+                        <img src="img/icon1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="library">
+                <div class="libraryElem " data-items="liked" id="friends">
+                    <div class="img">
+                        <img src="img/liked.png" alt="">
+                    </div>
+                    <p>Liked Songs</p>
+                </div>
+                <div class="libraryElem  " data-items="recently" id="friends">
+                    <div class="img">
+                        <img src="img/icon (1).svg" alt="">
+                    </div>
+                    <p>Recently Played</p>
+                </div>
+                <div class="libraryElem" data-items="friends" id="friends">
+                    <div class="img">
+                        <img src="img/icon (2).svg" alt="">
+                    </div>
+                    <p>Friends Played</p>
+                </div>
+            </div>
+
+            <div class="clas">
+                <div class="blicks">
+                    <h1>Made For <span>Kıvılcım</span></h1>
+
+                    <div class="elem">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper swiperBlock" id="myplalist">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blicks">
+                    <h1>Your <span>Shows</span></h1>
+
+                    <div class="elem">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper swiperBlock" id="shows">
+                                <div class="swiper-slide swiperElem">
+                                    <div class="blocImg">
+                                        <img src="img/play1.png" alt="">
+                                        <div class='hover'>
+                                            <h1>text</h1>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <h5>text</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blicks">
+                    <h1>Your <span>Playlists</span></h1>
+
+                    <div class="elem">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper swiperBlock" id="yourPlalist">
+
+                            </div>
+
+                            <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> -->
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="modal" id="modal">
+            <div class="bloc1">
+                <div class="haed">
+                    <div class="search">
+                        <div class="searchElem">
+
+                            <span class="material-icons" id="clouse">
+                                chevron_left
+                            </span>
+                            <span class="material-icons">
+                                navigate_next
+                            </span>
+                        </div>
+                    </div>
+                    <div class="akaunt">
+                        <div class="akauntElem">
+                            <div class="img"></div>
+                            <h3>Username</h3>
+                        </div>
+                        <div class="akauntElem">
+                            <img src="img/icon1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="imgPlay">
+                    <div class="img">
+                        <img src="img/icon (2).svg" id="imgPlay" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>playlıst</h3>
+                        <h1 id="textPlaylıst">Friends Played</h1>
+                        <p>A blend of music for you. Updates with your friend activities. <br>
+                            Made For <span>Kıvılcım</span> 50 songs, 3 hr 15 min
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bloc2 " id="oupenModl">
+                <div class="haed">
+                    <div class="elem">
+                        <li>
+                            <img src="img/play.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/love.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/instal.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/menubar.png" alt="">
+                        </li>
+                    </div>
+                    <div class="elem">
+                        <li><input type="text" placeholder="Artists, songs, or podcasts"></li>
+                        <li><button class="order" style="color: #fff;">
+                                Custom order
+                                <span class="material-icons" id="oupen" style="transform: rotate(90deg);">
+                                    arrow_right
+                                </span>
+                            </button></li>
+                        <li><button class="filter">
+                                <img src="img/filter.svg" alt="">
+                            </button></li>
+                    </div>
+                </div>
+                <div class="line">
+                    <h4>TITLE</h4>
+                    <h4>Album</h4>
+                    <h4>date added</h4>
+                    <h4>added by</h4>
+                </div>
+                <div class="contents" id="rendertrecks">
+                    <div class="elem">
+                        <div class="elemBloc">
+                            <h6>1</h6>
+                            <img src="img/Ekran Resmi 2021-10-15 12.58 (1).png" alt="">
+                            <div class="text">
+                                <h2>
+                                    Tie up my hands
+                                </h2>
+                                <p>
+                                    Starsailor
+                                </p>
+                            </div>
+                        </div>
+                        <div class="elemBloc">
+                            <p>Brain Drain</p>
+                        </div>
+                        <div class="elemBloc">
+                            <img src="" alt="">
+                            <p>Jane Flores</p>
+                        </div>
+                        <div class="elemBloc">
+                            <p>3:29</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="searchModal">
+            <div class="haed">
+                <div class="search">
+                    <div class="searchElem" id="searchElem1">
+                        <span class="material-icons">
+                            chevron_left
+                        </span>
+                    </div>
+                    <input type="text" id="searchs"  placeholder="Artists, songs, or podcasts">
+                </div>
+                
+            </div>
+            <div class="Selement">
+                <div class="cont">
+                    
+                </div>
+            </div>
+        </div>
+        
+
+
+
+    </main>
+    <footer>
+        <div class="bloc">
+            <img src="img/Rectangle 236.png " id="trecksImg" alt="" style="width: 48px;">
+            <div class="text">
+                <h4>No One Knows</h4>
+                <p>Queens of the Stone Age</p>
+            </div>
+            <div class="link">
+                <span class="material-icons" id="liveTrecks">
+                    favorite
+                </span>
+                <span class="material-icons">
+                    add_circle_outline
+                </span>
+                <span class="material-icons">
+                    playlist_add
+                </span>
+            </div>
+        </div>
+
+        <div class="bloc">
+            <div class="elem">
+                <img src="img/rundom.png" alt="" id="rundom">
+                <img src="img/left.svg" alt="" id="left">
+
+                <div class="a">
+                    <img src="img/Play_Stop.svg" id="play" alt="" style="width: 30px;">
+                    <audio src="" id="autoplay"></audio>
+                </div>
+
+                <img src="img/right.svg" alt="" id="right">
+                <img src="img/Repeat.png" alt="" id="repeat">
+
+            </div>
+            <div class="elem">
+                <p id="setTime">00</p>
+                <div class="width "  id="playWidthBloc">
+                    <div id="playWidth" style="width: 0 ;"></div>
+                </div>
+                <p id="maxtime">00</p>
+            </div>
+
+        </div>
+        <div class="bloc">
+            <div class="elem">
+                <div class="elemBloc">
+                    <img src="img/n.svg" alt=""><img src="img/m.svg" alt="">
+                </div>
+                <div class="elemBloc">
+                    <img src="img/t.png" alt="">
+                    <img src="img/z.svg" alt="">
+                    <div class="w"></div>
+                    <img src="img/w.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swipers.js"></script>
+</body>
+
+</html>

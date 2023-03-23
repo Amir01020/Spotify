@@ -1,0 +1,133 @@
+@media only screen and (max-width:1100px) {
+
+    .library {
+        flex-direction: column;
+        gap: 20px !important;
+
+        .libraryElem {
+            width: 90% !important;
+
+        }
+    }
+
+    #modal {
+        .imgPlay {
+            .text {
+                display: inline;
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 60px;
+                    line-height: 76px;
+
+                }
+            }
+        }
+    }
+    
+
+}
+
+@media only screen and (max-width:978px) {
+    #modal {
+        .imgPlay {
+            .img {
+                max-width: 138px;
+                height: fit-content !important;
+                padding: 6% 0 !important;
+            }
+
+            .text {
+                h1 {
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 56px;
+
+                }
+            }
+        }
+       
+    }
+    footer{
+        .bloc{
+            .text{
+                h4{
+                    font-size: 12px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    #modal {
+        .imgPlay {
+            padding: 0 36px;
+            .text {
+                h3 {
+                    font-weight: 500;
+                    font-size: 8px;
+                    line-height: 12px;
+                }
+
+                h1 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 36px;
+
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 8px;
+                    line-height: 10px;
+
+                    span {
+                        font-weight: 500;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        #oupenModl{
+            padding: 10px 34px 100px;
+
+            .haed{
+                flex-wrap: wrap;
+                gap: 20px;
+                .elem{
+                    width: 100%;
+                    justify-content: space-between;
+                    &:nth-child(2){
+                        
+                        li{
+                            display: none;
+                            &:nth-child(1){
+                                display: block;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    footer{
+        .bloc{
+            .text{
+                display: none;
+                h4{
+                    font-size: 12px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+}
